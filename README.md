@@ -1,26 +1,28 @@
-World Cup Database
+# World Cup Database
 
-This project is a PostgreSQL database that stores information about the final three rounds of the FIFA World Cup tournaments since 2014. It includes data about teams, matches, and scores.
-How to Use
+This project is a **PostgreSQL database** that stores information about the final three rounds of the **FIFA World Cup** tournaments since **2014**. It includes data about teams, matches, and scores.
 
-    Create the database and restore the structure by running:
+## How to Use
+1. **Create the database** and **restore the structure** by running:
+   ```sh
+   psql --username=freecodecamp --dbname=postgres -f worldcup.sql
+   ```
+2. **Insert data** into the database by executing:
+   ```sh
+   ./insert_data.sh
+   ```
+3. **Run queries** to retrieve insights from the database:
+   ```sh
+   ./queries.sh
+   ```
 
-psql --username=freecodecamp --dbname=postgres -f worldcup.sql
-
-Insert data into the database by executing:
-
-./insert_data.sh
-
-Run queries to retrieve insights from the database:
-
-    ./queries.sh
-
-Completion Proof
-
+## Completion Proof
 Below are the images confirming the successful completion of this project:
 
-Insert Data Script
-![Completion Proof](Completion Proof.png)
-Insert Data Execution
+![Insert Data Script](insert_data.sh.png)  
+![Completion Proof](Completion Proof.png)  
+![Insert Data Execution](insert_data.sh.png)  
 
-This project was completed as part of the freeCodeCamp Relational Database Certification. 🚀
+---
+
+This project was completed as part of the **freeCodeCamp Relational Database Certification**. 🚀
