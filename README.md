@@ -19,9 +19,9 @@ This project is a **PostgreSQL database** that stores information about the fina
 ## Completion Proof
 Below are the images confirming the successful completion of this project:
 
-![Insert Data Script](insert_data.sh.png)  
-![Completion Proof](Completion Proof.png)  
+![Insert Data Script](insert_data.sh.png)   
 ![Insert Data Execution](insert_data.sh.png)  
+![Completion Proof](Completion_Proof.png) 
 
 ---
 
